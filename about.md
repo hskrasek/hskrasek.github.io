@@ -4,14 +4,6 @@ title: About
 permalink: /about/
 ---
 
-A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme 
-[Readium 2.0](http://www.svenread.com/readium-ghost-theme/). I use mediator on my own blog [The Base](blog.base68.com).
+I'm an Austin based web developer that started programming in PHP when I was 14. When I first started programming in PHP it was all spaghetti code, and I wasn't even aware Object Oriented Programming was a thing, since I was self taught. Fast forward eight years and I have learned a couple of things, such as MVC, OOP, Version Control, Agile, and more. After graduating from St. Edwards University this May (2014), I started working on RESTful API's, and it's become my new favorite thing to do. 
 
-You can **download** the theme here:
-[https://github.com/dirkfabisch/mediator](https://github.com/dirkfabisch/mediator) 
-
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+I love working with new technologies, and finding new and clever ways to improve the quality and architecture of my code. Which is great, because [Perk.com](http://perk.com) allows me to do just that while building the API's to power our numerous mobile apps.
