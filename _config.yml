@@ -10,13 +10,13 @@ description: > # this means to ignore newlines until "email:"
 
 email: hunterskrasek@me.com
 #blog logo
-logo: "/assets/images/df_logo.jpg"
+logo: "http://gravatar.com/avatar/8a90b1c4f6f52fb19fadd85ac3f29a26.jpg?size=215"
 # blog cover
 cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
 
 name: 'Hunter Skrasek'
 author: 'Hunter Skrasek'
-author_image: "/assets/images/author.jpg"
+author_image: "http://gravatar.com/avatar/8a90b1c4f6f52fb19fadd85ac3f29a26.jpg?size=215"
 author_bio: "TODO: WRITE THIS"
 
 paginate:	5
