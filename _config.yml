@@ -5,7 +5,7 @@ highlighter: pygments
 # Site settings
 title: "Hunter Skrasek"
 description: > # this means to ignore newlines until "email:"
-   The thoughts and opinions of Hunter Skrasek. 22 year old Web Developer based out of
+   The thoughts and opinions of Hunter Skrasek, a 22 year old web developer based out of
    Austin, Texas.
 
 email: hunterskrasek@me.com
