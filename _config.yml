@@ -3,9 +3,10 @@ markdown: redcarpet
 highlighter: pygments
 
 # Site settings
-title: "Mediator"
+title: "Hunter Skrasek"
 description: > # this means to ignore newlines until "email:"
-   A Jekyll theme - Medium inspired
+   The thoughts and opinions of Hunter Skrasek. 22 year old Web Developer based out of
+   Austin, Texas.
 
 email: hunterskrasek@me.com
 #blog logo
