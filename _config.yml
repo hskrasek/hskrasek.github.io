@@ -10,18 +10,18 @@ description: > # this means to ignore newlines until "email:"
 
 email: hunterskrasek@me.com
 #blog logo
-logo: "https://gravatar.com/avatar/8a90b1c4f6f52fb19fadd85ac3f29a26.jpg?size=215"
+logo: "https://gravatar.com/avatar/616522697710c7a7ee8e751ee0857478.jpg?size=215"
 # blog cover
 cover: "/assets/images/red_doors.jpg"
 
 name: 'Hunter Skrasek'
 author: 'Hunter Skrasek'
-author_image: "https://gravatar.com/avatar/8a90b1c4f6f52fb19fadd85ac3f29a26.jpg?size=215"
+author_image: "https://gravatar.com/avatar/616522697710c7a7ee8e751ee0857478.jpg?size=215"
 author_bio: "TODO: WRITE THIS"
 
 paginate:	5
 
-url: "https://hskrasek.github.io" # the base hostname & protocol for your site
+url: "https://hunterskrasek.com" # the base hostname & protocol for your site
 baseurl: ""
 permalink: pretty
 
