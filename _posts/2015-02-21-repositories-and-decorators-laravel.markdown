@@ -85,13 +85,17 @@ class CachingUserRepository implements UserRepositoryInterface {
 
 As you can see, we inject an instance of _UserRepositoryInterface_ into the _CachingUserRepository_ class that handles the caching functionality, while using the injected _UserRepositoryInterface_ to load users if the cache has expired. This way we can maintain our seperation of concerns, and keep our code nice and clean. How would this be constructed? Well, when we bind our concrete implementation to our IoC container, it might look something like this:
 {% highlight php %}
+<?php
 
-$this->app->singleton('UserRepositoryInterface', function() {
+public function register()
+{
+    $this->app->singleton('UserRepositoryInterface', function() {
     $eloquentRepo = new EloquentUserRepository(new User);
     $cachingRepo = new CachingUserRepository($eloquentRepo, $this->app['cache.store']);
 
     return $cachingRepo;
 });
+}
 
 {% endhighlight %}
 
