@@ -90,11 +90,11 @@ As you can see, we inject an instance of _UserRepositoryInterface_ into the _Cac
 public function register()
 {
     $this->app->singleton('UserRepositoryInterface', function() {
-    $eloquentRepo = new EloquentUserRepository(new User);
-    $cachingRepo = new CachingUserRepository($eloquentRepo, $this->app['cache.store']);
+        $eloquentRepo = new EloquentUserRepository(new User);
+        $cachingRepo = new CachingUserRepository($eloquentRepo, $this->app['cache.store']);
 
-    return $cachingRepo;
-});
+        return $cachingRepo;
+    });
 }
 
 {% endhighlight %}
