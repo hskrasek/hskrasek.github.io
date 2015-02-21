@@ -3,7 +3,7 @@ layout: post
 title:  "Obligatory First Post"
 date:   2014-12-21 15:37:00
 categories: general
-tags: featured
+tags: first
 ---
 I have never considered myself to be that great of a writer, but after reading articles from [Chris Fidao][fideloper] and [Phil Sturgeon](sturgeon), I decided I would revamp my personal site and try my hand at writing with my own blog.
 
