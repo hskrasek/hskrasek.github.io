@@ -5,13 +5,14 @@ date:   2015-02-21 14:34:25
 categories: programming meetup talks
 tags: featured talks laravel
 ---
-During the [Laravel Austin][latx] meetup this month, besides discussing [Laravel 5][laravel]'s release, I gave a talk and demonstration of the repository and decorator pattern. First off the repository and decorator pattern is not an official pattern, just the combination of using repositories with the decorator pattern, but "Repository and Decorator Pattern" sounds cooler as a presentation title than "Using repositories with decorators".
+During the [Laravel Austin][latx] meetup this month, I gave a talk over the repository and decorator pattern, along with a demonstration on how they are useful. First off the repository and decorator pattern is not an official pattern, just the combination of using repositories with the decorator pattern, but "Repository and Decorator Pattern" sounds cooler as a presentation title than "Using repositories with decorators".
 
 ### Repositories
 
-So what exactly are repositories? Well, repositories allow us to abstract away the database layer. This way, instead of interacting with the database by directly calling Eloquent models in your controller, you call methods on the repository which in-turn call the Eloquent models, MongoDB model, Redis, etc. One of the benefits of repositories is that it allows you to swap out implementations, without your code being coupled to a specific database layer.
+So what exactly are repositories? Well, repositories allow us to abstract away the database layer. With repositories, we can remove business logic/database logic from your controllers, and prevent our code from becoming coupled to a single database implementation.
 
-For example, if you have the following interface:
+Lets create a few repositories, implementing the following interface:
+_Note: The following examples use [Laravel][laravel] specific code, but the concepts can be used anywhere_
 {% highlight php %}
 <?php
 
@@ -20,7 +21,7 @@ interface UserRepositoryInterface {
 }
 {% endhighlight %}
 
-You could implement this interface in anyway you might need:
+With this interface, you could create repositories that use Eloquent, Mongo, Redis, Text files... I think you get the point.
 {% highlight php %}
 <?php
 
@@ -37,7 +38,7 @@ class RedisUserRepository implements UserRepositoryInterface {
 }
 {% endhighlight %}
 
-And then in your controller, you could use the repository like so:
+Now instead of referencing Eloquent, or the repository directly, lets inject the interface instead. This way, it doesn't matter what implementation we use, as long as it is an instance of UserRepositoryInterface.
 {% highlight php %}
 <?php
 
@@ -58,9 +59,7 @@ class UserController extends Controller {
 ### Decorators
 
 So now that we have a basic idea of what repositories are, what about decorators, what are they needed for? Let me pose a hypothetical: You are storing users in your database, and things are running smoothly until you start to notice your application running slow. You notice the slow down is due to constantly looking up users in the database, what do you do? Add more database servers? Shard your MySQL instance? Better idea, lets cache the data in memcache... how do we do that in the code?
-
 Your first reaction might be to add caching to the _UserController_ around the repository calls, but handling caching really isn't the responsibility of a controller. So, lets edit the _EloquentUserRepository_ directly, and add caching to that.. sadly, even that has its issues. Every time you touch a class to add functionality, you run the risk of introducing new issues, so how should we do this? That's where decorators come in!
-
 Decorators allow you to wrap classes to extend functionality, without editing the original class. If structured correctly, you can decorate a class over and over again to add new functionality infinitely. How do you accomplish this? Well, thats where the _UserRepositoryInterface_ comes in handy, it can be used as a contract to ensure that the decorator implements all the required functions. Lets expand on our caching hypothetical with an example:
 {% highlight php %}
 <?php
