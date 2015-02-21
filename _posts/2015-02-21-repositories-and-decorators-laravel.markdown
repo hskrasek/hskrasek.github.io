@@ -58,9 +58,24 @@ class UserController extends Controller {
 {% endhighlight %}
 ### Decorators
 
-So now that we have a basic idea of what repositories are, what about decorators, what are they needed for? Let me pose a hypothetical: You are storing users in your database, and things are running smoothly until you start to notice your application running slow. You notice the slow down is due to constantly looking up users in the database, what do you do? Add more database servers? Shard your MySQL instance? Better idea, lets cache the data in memcache... how do we do that in the code?
-Your first reaction might be to add caching to the _UserController_ around the repository calls, but handling caching really isn't the responsibility of a controller. So, lets edit the _EloquentUserRepository_ directly, and add caching to that.. sadly, even that has its issues. Every time you touch a class to add functionality, you run the risk of introducing new issues, so how should we do this? That's where decorators come in!
-Decorators allow you to wrap classes to extend functionality, without editing the original class. If structured correctly, you can decorate a class over and over again to add new functionality infinitely. How do you accomplish this? Well, thats where the _UserRepositoryInterface_ comes in handy, it can be used as a contract to ensure that the decorator implements all the required functions. Lets expand on our caching hypothetical with an example:
+So now that we have a basic idea of what repositories are, what about decorators, what are they needed for? Let me 
+pose a hypothetical.
+
+Your application stores users on a MySQL database, and things are running smoothly until you start to notice your 
+application running slow. You notice the slow down is due to constantly looking up users in the database, so what do 
+you do? Add more database servers? Shard your MySQL instance? All of these would work, but they only mask the 
+problem, and expanding horizontally like that begins to add up in server bills. So lets add some caching instead, so 
+that we don't have to hit our database servers as often.
+
+Your first reaction might be to add caching to the _UserController_ around the repository calls, but handling caching
+ really isn't the responsibility of a controller. So, lets edit the _EloquentUserRepository_ directly, and add 
+ caching to that. Well, even that has its issues. Every time you touch a class to add functionality, you run the 
+ risk of introducing new issues, so how should we do this? That's where decorators come in!
+
+Decorators allow you to wrap classes to extend functionality, without editing the original class. If structured 
+correctly, you can decorate a class over and over again to add new functionality. How do you accomplish this? Well, 
+thats where the _UserRepositoryInterface_ comes in handy, it can be used as a contract to ensure that the decorator 
+implements all the required functions. Lets create a decorator to add caching to our application.
 {% highlight php %}
 <?php
 
