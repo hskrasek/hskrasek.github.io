@@ -12,7 +12,6 @@ During the [Laravel Austin][latx] meetup this month, besides discussing [Laravel
 So what exactly are repositories? Well, repositories allow us to abstract away the database layer. This way, instead of interacting with the database by directly calling Eloquent models in your controller, you call methods on the repository which in-turn call the Eloquent models, MongoDB model, Redis, etc. One of the benefits of repositories is that it allows you to swap out implementations, without your code being coupled to a specific database layer.
 
 For example, if you have the following interface:
-
 {% highlight php %}
 <?php
 
@@ -22,7 +21,6 @@ interface UserRepositoryInterface {
 {% endhighlight %}
 
 You could implement this interface in anyway you might need:
-
 {% highlight php %}
 <?php
 
@@ -40,7 +38,6 @@ class RedisUserRepository implements UserRepositoryInterface {
 {% endhighlight %}
 
 And then in your controller, you could use the repository like so:
-
 {% highlight php %}
 <?php
 
@@ -58,7 +55,6 @@ class UserController extends Controller {
     }
 }
 {% endhighlight %}
-
 ### Decorators
 
 So now that we have a basic idea of what repositories are, what about decorators, what are they needed for? Let me pose a hypothetical: You are storing users in your database, and things are running smoothly until you start to notice your application running slow. You notice the slow down is due to constantly looking up users in the database, what do you do? Add more database servers? Shard your MySQL instance? Better idea, lets cache the data in memcache... how do we do that in the code?
@@ -66,7 +62,6 @@ So now that we have a basic idea of what repositories are, what about decorators
 Your first reaction might be to add caching to the _UserController_ around the repository calls, but handling caching really isn't the responsibility of a controller. So, lets edit the _EloquentUserRepository_ directly, and add caching to that.. sadly, even that has its issues. Every time you touch a class to add functionality, you run the risk of introducing new issues, so how should we do this? That's where decorators come in!
 
 Decorators allow you to wrap classes to extend functionality, without editing the original class. If structured correctly, you can decorate a class over and over again to add new functionality infinitely. How do you accomplish this? Well, thats where the _UserRepositoryInterface_ comes in handy, it can be used as a contract to ensure that the decorator implements all the required functions. Lets expand on our caching hypothetical with an example:
-
 {% highlight php %}
 <?php
 
@@ -89,7 +84,6 @@ class CachingUserRepository implements UserRepositoryInterface {
 {% endhighlight %}
 
 As you can see, we inject an instance of _UserRepositoryInterface_ into the _CachingUserRepository_ class that handles the caching functionality, while using the injected _UserRepositoryInterface_ to load users if the cache has expired. This way we can maintain our seperation of concerns, and keep our code nice and clean. How would this be constructed? Well, when we bind our concrete implementation to our IoC container, it might look something like this:
-
 {% highlight php %}
 
 $this->app->singleton('UserRepositoryInterface', function() {
@@ -114,7 +108,7 @@ Would you like to learn more about using decorators and repositories? You should
 [latx]:                  http://laravelaustin.com/
 [solid]:                 http://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29
 [laravel]:               http://laravel.com/docs/5.0/installation
-[laracast]:              https://laracasts.com/
+[laracasts]:             https://laracasts.com/
 [laracast-video]:        https://laracasts.com/lessons/decorating-repositories
 [lara-decorator]:        https://laracasts.com/lessons/the-decorator-pattern
 [lara-repositories]:     https://laracasts.com/lessons/repositories-simplified
