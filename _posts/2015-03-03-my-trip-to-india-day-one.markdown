@@ -23,6 +23,8 @@ Once we finished eating and checking in, it was time to go to the office to meet
 
 ![Inside the Perk.com offices](/assets/article_images/2015-03-03-my-trip-to-india-day-one/PerkOfficeInternal.jpg)
 
+![Panoramic from Perk.com office rooftop](/assets/article_images/2015-03-03-my-trip-to-india-day-one/PerkOfficePanaramic.jpg)
+
 After getting setup, which I just realized I am missing a picture of our base camp.. will have to fix that tomorrow, we walked to a café named Barista down the road to get some coffee for my coworkers, tea for me. We all needed a slight caffeine boost after such a long flight, and the lack of sleep. Thankfully I wasn't that sleepy during the day, and only started to feel the crash once we left the office to relax before dinner.
 
 ![Getting a needed caffeine boost](/assets/article_images/2015-03-03-my-trip-to-india-day-one/Barista.jpg)
