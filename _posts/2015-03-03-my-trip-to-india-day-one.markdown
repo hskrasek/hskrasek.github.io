@@ -5,16 +5,6 @@ date:   2015-03-03 14:10:00
 categories: travel
 tags: featured india perk
 ---
-* My Trip to India - Day One
-* My Trip to India - Day Two
-* My Trip to India - Day Three
-* My Trip to India - Day Four
-* My Trip to India - Day Five
-* My Trip to India - Day Six
-* My Trip to India - Day Seven
-* My Trip to India - Day Eight
-* My Trip to India - Day Nine
-
 As you may know I currently work for [Perk.com][perk], which has offices in Austin, Texas and Bengaluru, India (Bangalore), and I was given the opportunity to fly out to Bangalore to see our offices in India. While I've been to Mexico and the Grand Cayman Islands when I was younger, I have never traveled over-seas before, so needless to say I am very excited. I left Austin around 6:45pm on March 1st, and landed in Heathrow, London for a four to five hour layover, before taking off again for Bangalore. 
 
 ![Heathrow Airport](/assets/article_images/2015-03-03-my-trip-to-india-day-one/HeathrowAirport.jpg)
