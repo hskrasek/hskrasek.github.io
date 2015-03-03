@@ -3,7 +3,7 @@ layout: post
 title:  "Repositories and Decorators"
 date:   2015-02-21 14:34:25
 categories: programming meetup talks
-tags: featured talks laravel
+tags: talks laravel
 ---
 During the [Laravel Austin][latx] meetup this month, I gave a talk over the repository and decorator pattern, along with a demonstration on how they are useful. First off the repository and decorator pattern is not an official pattern, just the combination of using repositories with the decorator pattern, but "Repository and Decorator Pattern" sounds cooler as a presentation title than "Using repositories with decorators".
 
