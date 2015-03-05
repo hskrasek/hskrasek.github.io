@@ -3,7 +3,7 @@ layout: post
 title:  "My Trip to India - Day Two"
 date:   2015-03-04 07:55:00
 categories: travel
-tags: featured india perk
+tags: india perk
 ---
 My first full day in India without any flights, and a very very comfortable bed. Due to writing the yesterdays blog post, I didn't get a full eight hours of sleep, so this time I decided to be smart and started to write this before we leave for dinner. 
 
