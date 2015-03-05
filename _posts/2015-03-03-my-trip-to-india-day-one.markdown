@@ -3,7 +3,7 @@ layout: post
 title:  "My Trip to India - Day One"
 date:   2015-03-03 14:10:00
 categories: travel
-tags: featured india perk
+tags: india perk
 ---
 As you may know I currently work for [Perk.com][perk], which has offices in Austin, Texas and Bengaluru, India (Bangalore), and I was given the opportunity to fly out to Bangalore to see our offices in India. While I've been to Mexico and the Grand Cayman Islands when I was younger, I have never traveled over-seas before, so needless to say I am very excited. I left Austin around 6:45pm on March 1st, and landed in Heathrow, London for a four to five hour layover, before taking off again for Bangalore. 
 
@@ -23,7 +23,7 @@ Once we finished eating and checking in, it was time to go to the office to meet
 
 ![Inside the Perk.com offices](/assets/article_images/2015-03-03-my-trip-to-india-day-one/PerkOfficeInternal.jpg)
 
-![Panoramic from Perk.com office rooftop](/assets/article_images/2015-03-03-my-trip-to-india-day-one/PerkOfficePanaramic.jpg)
+![Panoramic from Perk.com office rooftop](/assets/article_images/2015-03-03-my-trip-to-india-day-one/PerkRoofPanaramic.jpg)
 
 After getting setup, which I just realized I am missing a picture of our base camp.. will have to fix that tomorrow, we walked to a café named Barista down the road to get some coffee for my coworkers, tea for me. We all needed a slight caffeine boost after such a long flight, and the lack of sleep. Thankfully I wasn't that sleepy during the day, and only started to feel the crash once we left the office to relax before dinner.
 
