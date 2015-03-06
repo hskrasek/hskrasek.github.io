@@ -3,7 +3,7 @@ layout: post
 title:  "My Trip to India - Day Three"
 date:   2015-03-05 11:09:00
 categories: travel
-tags: featured india perk
+tags: india perk
 ---
 Day three of the India trip, and it wasn't as bad as Blake made it out to be. Definitely tired by the end of the day, and almost didn't want to write this, but it was good. After eating a huge breakfast, since we usually just skip lunch while at the office, I decided to make a Hyperlapse from the hotel to the office. It actually turned out very well, and just shows how ridiculous the traffic is here.
 
