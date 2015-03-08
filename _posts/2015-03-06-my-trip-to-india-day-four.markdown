@@ -3,7 +3,7 @@ layout: post
 title:  "My Trip to India - Day Four"
 date:   2015-03-06 11:36:00
 categories: travel
-tags: featured india perk
+tags: india perk
 ---
 Today was probably the best Friday I've had at work in a long while, I didn't get to do a single bit of programming at all, but I am actually okay with that. Today we joined the Bangalore team in a game of cricket. It was a tad hot outside, I'm not a huge heat or sun kinda guy, but overall it was a blast. I still am not sure how to play cricket, but I was able to earn the "American" team a few runs, and I to my understanding we won.. and even if we didn't, I'm still gonna count it as a spiritual win.
 
