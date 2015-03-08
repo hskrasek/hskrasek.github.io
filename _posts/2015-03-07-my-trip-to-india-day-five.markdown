@@ -3,7 +3,7 @@ layout: post
 title:  "My Trip to India - Day Five"
 date:   2015-03-07 11:36:00
 categories: travel
-tags: featured india perk
+tags: india perk
 ---
 Thankfully day five started later than usual, allowing me to get some more sleep. Today we went to visit a local orphanage that [Perk.com](http://giving.perk.com) sponsors and donates money to each month. 
 
