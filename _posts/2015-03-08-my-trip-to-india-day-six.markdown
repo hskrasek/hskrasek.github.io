@@ -3,7 +3,7 @@ layout: post
 title:  "My Trip to India - Day Six"
 date:   2015-03-08 12:01:00
 categories: travel
-tags: featured india perk
+tags: india perk
 ---
 Day six started a tad later than usual, on the account of the company party (aka hangovers) and being out late. Thankfully, no hangovers for me, but boy oh boy was I sore thanks to all the dancing from last night. Got to experience getting room service for the first time, which was nice, mainly because I was tired and not ready to be social in the morning.
 
