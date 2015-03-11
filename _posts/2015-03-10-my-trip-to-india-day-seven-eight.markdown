@@ -3,7 +3,7 @@ layout: post
 title:  "My Trip to India - Days Seven & Eight"
 date:   2015-03-10 12:44:00
 categories: travel
-tags: featured india perk
+tags: india perk
 ---
 I decided to merge the posts for yesterday and today since they were primarily work days, with nothing super out of the ordinary. I also went out for drinks with two of my co-workers at a Jimi Hendrix themed bar, and initially I was just going to get one drink, chill, and then go back to the hotel... and the hangover I nursed today is proof that that plan died horribly.
 
