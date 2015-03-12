@@ -3,7 +3,7 @@ layout: post
 title:  "My Trip to India - Day Nine"
 date:   2015-03-11 12:04:00
 categories: travel
-tags: featured india perk
+tags: india perk
 ---
 Just a heads up, this is going to be a quick little post, but today was my last day in India. We woke up early so we could get to the office and get some work done before we left. I wish I could say I was super productive, but dealing with blockers slowing me down prevented that from happening; I'll make it up back home though. After spending what felt longer than a week with the team in Bangalore, and getting to meet everyone, it sucked to say goodbye.
 
