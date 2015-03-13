@@ -3,7 +3,7 @@ layout: post
 title:  "My Trip to India - Day Ten"
 date:   2015-03-12 15:18:00
 categories: travel
-tags: featured india perk
+tags: india perk
 ---
 What a first leg of the journey back home. We left the hotel at 3am to get to the airport for our 7am flight, and let me tell you... I felt great running on zero sleep... not. But after getting some sleep on the plane, and a very long flight, we made it to London!
 
