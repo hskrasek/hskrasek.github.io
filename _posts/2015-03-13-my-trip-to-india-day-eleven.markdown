@@ -3,7 +3,7 @@ layout: post
 title:  "My Trip to India - Day Eleven"
 date:   2015-03-13 13:17:00
 categories: travel
-tags: featured india perk
+tags: india perk
 ---
 The final day of my trip to India, after being away from home for almost two weeks, I am ready to be back home. The day started out with me waking up earlier than I usually would, but with more sleep than I would usually get. Going backwards after being on IST actually is helping my sleep pattern resemble something normal... can't wait to ruin it by staying up late playing video games.
 
