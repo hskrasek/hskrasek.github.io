@@ -16,7 +16,7 @@ Laravel has a built-in [queue service][2] that offers a unified API for working 
 {
     "job":"Illuminate\\\\Queue\\\\CallQueuedHandler@call",
     "data":{
-        "command":"O:29:\\"Acme\\\Jobs\\\FooJob\\":4:{s:11:\\"fooBar\\";s:7:\\"abc-123\\";s:5:\\"queue\\";N;s:5:\\"delay\\";N;s:6:\\"\\u0000*\\u0000job\\";N;}"
+        "command":"O:29:\\"Acme\\Jobs\\FooJob\\":4:{s:11:\\"fooBar\\";s:7:\\"abc-123\\";s:5:\\"queue\\";N;s:5:\\"delay\\";N;s:6:\\"\\u0000*\\u0000job\\";N;}"
     }
 }
 ```
@@ -25,7 +25,7 @@ Potential security implications aside, this has a few drawbacks. For one, you ca
 
 Thankfully, Laravel's queue API has the ability to [push raw data][3] onto whichever queue service you decide to go with. What if you want to process the raw queue data with Laravel though? While not specifically documented, it is possible if you dig through some of the frameworks inner workings.
 
-If you look around line 125 of `Illuminate\Queue\Jobs\Jobs` you'll see the main logic that handles resolving and firing queue data to be processed. Within this logic you can see the recieved payload from the queue driver needs to have two keys within the JSON payload: `job`, and `data`. Job is a string with the fully qualified class name (FQCN) of the class working the queue data, and optional method name (default is `fire`) to be executed. Data is just that, it can be any sort of data in any format thats JSON complaint, and will be passed into the method/class specified in the `job` key as an associative array.
+If you look around lines [117-130][4] of `Illuminate\Queue\Jobs\Jobs` you'll see the main logic that handles resolving and firing queue data to be processed. Within this logic you can see the recieved payload from the queue driver needs to have two keys within the JSON payload: `job`, and `data`. Job is a string with the fully qualified class name (FQCN) of the class working the queue data, and optional method name (default is `fire`) to be executed. Data is just that, it can be any sort of data in any format thats JSON complaint, and will be passed into the method/class specified in the `job` key as an associative array.
 
 ```javascript
 {
@@ -46,3 +46,4 @@ Hope this was helpful to some of you, if you have any questions, or notice somet
 [1]: https://blog.kissmetrics.com/loading-time/?wide=1
 [2]: https://laravel.com/docs/5.2/queues
 [3]: https://laravel.com/api/5.2/Illuminate/Contracts/Queue/Queue.html#method_pushRaw
+[4]: https://github.com/laravel/framework/blob/5.2/src/Illuminate/Queue/Jobs/Job.php#L117-L130
