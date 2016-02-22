@@ -10,7 +10,7 @@ tags: featured
 
 Two seconds may not seem like a hard feat to accomplish, but some tasks can really slow an application down, such as sending email(s). One way to get around this is to defer the task to a queue, to be processed later. 
 
-Laravel has a built-in [queue service][2] that offers a unified API for working with multiple queueing back-ends. This queue service makes working with and hanling queues within the framework a breeze by pushing a JSON payload onto the queue containing a PHP serialization of the "job" class.
+Laravel has a built-in [queue service][2] that offers a unified API for working with multiple queueing back-ends. This queue service makes working with and handling queues within the framework a breeze by pushing a JSON payload onto the queue containing a PHP serialization of the "job" class.
 
 ```javascript
 {
