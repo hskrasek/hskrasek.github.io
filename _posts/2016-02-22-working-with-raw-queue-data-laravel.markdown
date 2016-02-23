@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Working with raw queues in Laravel"
-date:   2016-02-21 23:08:00
+date:   2016-02-22 22:12:00
 categories: programming laravel
 tags: featured 
 ---
