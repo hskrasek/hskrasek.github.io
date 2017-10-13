@@ -1,0 +1,81 @@
+==================================================================
+https://keybase.io/hunters
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://hunterskrasek.com
+  * I am hunters (https://keybase.io/hunters) on keybase.
+  * I have a public key with fingerprint 2E71 10B0 2D71 9CC4 FCA1  7B7F 7101 08C2 8416 B8B6
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010172e345b4df415d406aa885bec5012a3ae45d83aa02e63980e4f8fd21247d75c40a",
+      "fingerprint": "2e7110b02d719cc4fca17b7f710108c28416b8b6",
+      "host": "keybase.io",
+      "key_id": "710108c28416b8b6",
+      "kid": "010172e345b4df415d406aa885bec5012a3ae45d83aa02e63980e4f8fd21247d75c40a",
+      "uid": "b9cdc1644a9b63bc5174479c7032eb00",
+      "username": "hunters"
+    },
+    "merkle_root": {
+      "ctime": 1507867534,
+      "hash_meta": "226e3c0cf24ec7fb53ed253eaaa51c18bd557b0e8504c1f1c0ffd9455904765a",
+      "seqno": 1570365
+    },
+    "revoke": {
+      "sig_ids": [
+        "3c14fba4f5f3628dc423063720a5214c5129af2eeeb302e59264e654342ef2c10f"
+      ]
+    },
+    "service": {
+      "hostname": "hunterskrasek.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1507867561,
+  "expire_in": 157680000,
+  "prev": "7d5ec62d81a547aa674113f2e33ab3f75edf3727cce3888fc65fe850267540ea",
+  "seqno": 17,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Comment: GPGTools - https://gpgtools.org
+
+owGtU1+IVUUcvnddK7d2WURMQYtOkFnrOv/nnHUTtCXBQGgfBLfkNjNnZu/x7p5z
+7zlnr6235T6Yu0V/qH0IjJIsKAohYdHsId2NRSIXrETp2kMFrmUmZIFllDbnklDR
+Y+dhDjPz/b7f930z82L7glxbvpK/5aOnlh45nD9xQea2fb3uYM2RkT/q9NSckm7+
+9JCvk7RQCnynxwEQQI40JlQS3xBIfQKYEK5LpVYUQCSw0IT6LhYCIM2w5wJNjGt8
+BBHhPqeKAOF0OSYIB3VcjoMwtbRIcwiBBMjn0FOKGCUgl9xw2w64CrkEMulKZguL
+UZJVWHFSJLo7iOyanRSa8v4D/z/rHmnSSU/5CjJChCcZlopCTgj3FAcYaQlABkx0
+HIphbdHFkTDVceKMdTnDOi4N6UIcRWmWrUqDDAEp4C7jFBPrTyTFwrBORRYLYhor
+oAwiWnEjKdY+soMQgkIFXelTyiXQLgVEQQMVMMb3CKUeIJzRTG+iK2GUdbDSGLUK
+Yl2NSjprngSDNrXE6XnUwQoSM12TghhqMEOurwjCgGGOgKAIEusQecIgrbXENiDq
+IUY0owQTpA1SEBhn+1jWLq4GqkmfHdQ/AyjF9sRK3SoatsLKcZRGKhrKttO0nPRk
+8aSj5Qy/U8vCX0wFGYS+vSu2omopgii0ZizyX8kx2OXoJ8pBrAtB2LTLXGC/rI+u
+ZjfDp1ox5LtQUMKFYJxAiK0hjIXEhlPtG+uWK6Wx67pGMWqyXJElJ0D/PUpudYpB
+y2kDDEU6EmtnrO2ZPG7N5dtyK5fe1dpd6Ty4pvLq7O/7a/Ub72thS/a4cm2LOm+s
+zB27+Xq1/tuInj305rnjKzfNb9/cN94wf3ywYNeDS+D9tbnj3vmHb19++sfGpY7P
+l0xcrsy0du5c9cLWM59Nbj175Z0N940fvjQx0IF37N+1+vHeJ6/VNv/0fCU88hiY
+2i1ObXkA04GPrwzd2j91YMNkXpx/Y99bgzu2JX0zt909++krq6f2xE8PyPbienTy
+2CMN1v/Dty3Fy9P5TVf3zi987ecIxl+dbTvX/80v3p7Ti091v3xnLXnv0MZS48ub
+Jlb0Xpjp642WvTv0+nfr5j98v33txjNjd3yydnHHohP8aD235t7dL+2t92+5dvLt
+6GI9rLdO71t1vWX0oWUrnvWWfz93cT098OsXkz3jjavP3XP0Tw==
+=l3bA
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/hunters
+
+==================================================================
+
