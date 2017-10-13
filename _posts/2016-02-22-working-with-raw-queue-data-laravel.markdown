@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Working with raw queues in Laravel"
-date:   2016-02-21 23:08:00
+date:   2016-02-22 22:12:00
 categories: programming laravel
 tags: featured 
 ---
@@ -12,7 +12,7 @@ Two seconds may not seem like a hard feat to accomplish, but some tasks can real
 
 Laravel has a built-in [queue service][2] that offers a unified API for working with multiple queueing back-ends. This queue service makes working with and handling queues within the framework a breeze by pushing a JSON payload onto the queue containing a PHP serialization of the "job" class.
 
-```javascript
+```json
 {
     "job":"Illuminate\\\\Queue\\\\CallQueuedHandler@call",
     "data":{
@@ -27,7 +27,7 @@ Thankfully, Laravel's queue API has the ability to [push raw data][3] onto which
 
 If you look around lines [117-130][4] of `Illuminate\Queue\Jobs\Jobs` you'll see the main logic that handles resolving and firing queue data to be processed. Within this logic you can see the recieved payload from the queue driver needs to have two keys within the JSON payload: `job`, and `data`. Job is a string with the fully qualified class name (FQCN) of the class working the queue data, and optional method name (default is `fire`) to be executed. Data is just that, it can be any sort of data in any format thats JSON complaint, and will be passed into the method/class specified in the `job` key as an associative array.
 
-```javascript
+```json
 {
     "job": "Acme\\\\Jobs\\\\FooJob",
     "data": {
